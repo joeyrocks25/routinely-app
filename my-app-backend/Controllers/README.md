@@ -1,0 +1,3 @@
+Controllers will be responsible to handle all the incoming requests to your application which will either render a page in response, may send a JSON payload or will handle other critical API related actions like POST, PUT, DELETE etc.
+
+Controllers will further consume Models, say a User model to Create Users while registering on your website or will render the view files if static pages are requested.

@@ -1,0 +1,3 @@
+Look at alternative methods to authentication such as 'OAuth2'
+Down the line, is there an alternative to Express?
+Rework design and responsiveness, eg smaller screen

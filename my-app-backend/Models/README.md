@@ -1,0 +1,1 @@
+Every Collection (if MongoDB) or a Table (if MySQL) will have a standalone model file. For eg: A collection of Users will have it's own User.model.js file which could be extended further for defining a Schema Structure for the collection, Setting Default Values in the DB or Validating the User Inputs before storing the values to Database.

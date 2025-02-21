@@ -1,0 +1,1 @@
+Your app will have several middleware functions which could be separated and initiated in a single file. These helpers could range from critical middleware like Body Parser, Global Error Handlers, Authentication Middleware, enabling CORS, Attaching Custom Headers or setting a View Engine in ExpressJS.
