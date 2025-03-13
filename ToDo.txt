@@ -1,3 +1,5 @@
 Look at alternative methods to authentication such as 'OAuth2'
 Down the line, is there an alternative to Express?
 Rework design and responsiveness, eg smaller screen
+If using localstorage for guest, limit goals to 3, there's a cap of storage (e.g. 5mb)
+Is default button being used or just the css?

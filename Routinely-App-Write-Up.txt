@@ -1,0 +1,181 @@
+# Routinely App Write-Up
+
+## Introduction
+Routinely is an app designed to help users set and achieve their goals through the creation of smart objectives. This framework will guide the development and functionality of the app.
+
+### Specific
+- Clearly define the goal.
+- Answer the questions: Who, What, Where, When, and Why.
+
+### Measurable
+- Establish criteria for measuring progress.
+- Answer the questions: How much, How many, and How will I know when it is accomplished?
+
+### Achievable
+- Ensure the goal is attainable.
+- Consider the resources and constraints.
+
+### Relevant
+- Ensure the goal is relevant to the user's life and long-term objectives.
+- Answer the question: Does this goal matter?
+
+### Time-bound
+- Set a deadline for the goal.
+- Answer the questions: When will it be achieved? What can be done today, in a week, in a month?
+
+## Conclusion
+Routinely aims to empower users to achieve their goals by providing a structured framework for setting and tracking SMART objectives. With a user-friendly interface and robust features, Routinely will help users stay motivated and on track to reach their personal and professional aspirations.
+
+
+
+******************** SMART OBJECTIVES ********************
+1.
+### Specific
+Decide features I wish app to include
+
+### Measurable
+Features will supplement wireframes
+
+### Achievable
+- Time investment
+
+### Relevant
+- This will help guide the workflow for wireframes
+
+### Time-bound
+- This will be done within the first week
+
+Achieved? >> Achieved
+
+----------------------------------------------------------
+
+2. 
+### Specific
+- I want to design and create wireframes for my app
+
+### Measurable
+- Create wireframes to implement a mvp
+- Ensure logical flow from start to finish of mvp
+
+### Achievable
+- This will take a relatively short time investment
+
+### Relevant
+- This will speed up and help guide the workflow for app development
+
+### Time-bound
+- I want this completed within the first week
+
+Achieved? >> Achieved
+
+----------------------------------------------------------
+
+3.
+### Specific
+- I want to choose the development method
+
+### Measurable
+- These methods will provide workflow on how to begin building the app
+
+### Achievable
+- Time investment
+
+### Relevant
+- This will provide workflow for developing the app
+
+### Time-bound
+- I want this completed within the first week
+
+Achieved? >> Achieved
+
+----------------------------------------------------------
+
+4.
+### Specific
+- Review existing solutions
+
+### Measurable
+- This could aid development process or guide a change of course
+
+### Achievable
+- Time investment
+
+### Relevant
+- This could speed up development or help prevent copying existing one
+
+### Time-bound
+- I want this completed within the first week
+
+Achieved? >> Achieved
+
+----------------------------------------------------------
+
+5.
+### Specific
+- I want to create a mvp
+
+### Measurable
+- This will be a functional application from start to finish, not basic
+
+### Achievable
+- Time investment, staying in line with objectives
+
+### Relevant
+- This will give a feel for the app and allow us to build upon and further enchance
+
+### Time-bound
+- I want this completed within the first 2 months
+
+Achieved? >>
+
+*********************************************************
+
+
+
+
+
+
+*********************** Features ************************
+
+- Account creation
+- General advice on setting / achieving goals
+- Set SMART goals daily / weekly / monthly / yearly
+- view / edit/ delete goals + log completions
+- Metrics of goals
+- Manage account / logout
+- Notifications
+
+- Things to consider:
+  - research most effective way of achieving and motivating goals, 
+    must induce some level of stress
+
+********************************************************* 
+
+
+
+
+
+********************** wireframes ***********************
+
+https://wireframe.cc/UigU3Q
+
+- Drawn up wireframes
+
+*********************************************************
+
+
+
+
+
+
+****************** Development method *******************
+
+React for frontend
+
+Node.js with Express framework for backend
+
+MongoDB for database
+
+Leave hosting until a later time
+
+*********************************************************
