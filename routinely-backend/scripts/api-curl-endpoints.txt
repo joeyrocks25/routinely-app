@@ -1,0 +1,47 @@
+Create User:
+curl -X POST -H "Content-Type: application/json" -d '{"username":"test","email":"test@test.com","password":"test"}' http://localhost:3001/api/register
+
+User Login:
+curl -X POST -H "Content-Type: application/json" -d '{"email":"test@test.com","password":"test"}' http://localhost:3001/api/login
+
+Add goal to user:
+curl -X POST http://localhost:3001/api/user/goal \
+  -H "Authorization: Bearer <token>" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "specific": "Read more books",
+    "measurableContext": "Books read",
+    "measurableValue": 5,
+    "measurableUnit": "times",
+    "achievable": "Read 30 mins daily",
+    "relevant": "Improve knowledge",
+    "timebound": "2024-06-01"
+  }'
+
+Update goal to user 
+curl -X PUT "http://localhost:3001/api/user/goal/<goalId>" \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer <token>" \
+     -d '{
+           "specific": "Updated test",
+           "measurableContext": "Updated test",
+           "measurableValue": 50,
+           "measurableUnit": "words",
+           "achievable": "Updated test",
+           "relevant": "Updated test",
+           "timebound": "2025-03-25T00:00:00.000Z"
+         }'
+
+
+Return Protected User:
+curl -X GET -H "Authorization: Bearer <token>" http://localhost:3001/api/user
+
+Delete User Goal by ID:
+curl -X DELETE http://localhost:3001/api/user/goal/<goalId>"\
+  -H "Authorization: Bearer <token>"
+
+
+Delete User:
+curl -X DELETE http://localhost:3001/api/user \
+  -H "Authorization: Bearer <token>"
+

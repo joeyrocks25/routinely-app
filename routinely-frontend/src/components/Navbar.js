@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
-import Colours from '../styles/Colours';
 import DefaultButton from "../components/buttons/DefaultButton";
 
 const Navbar = () => {

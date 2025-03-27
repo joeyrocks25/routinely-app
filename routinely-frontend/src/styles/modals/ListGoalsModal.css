@@ -1,0 +1,61 @@
+.goal-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .goal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.2s;
+  }
+  
+  .goal-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .goal-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-btn:hover {
+    color: green;
+  }
+  
+  .delete-btn:hover {
+    color: red;
+  }
+  
+  .edit-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .modal-header-goals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
